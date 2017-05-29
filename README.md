@@ -15,17 +15,17 @@ Modificando o driver do chromer conforme seu sistema operacional:
 
 <p>Para Windows:</p>
 
-Modificar o arquivo .java "HelloWorld.java" no metodo setUp()
+Modificar o arquivo "HelloWorld.java" no metodo setUp() para "./drivers/chromedriver.exe"
 
-public void setUp(){
-        System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
+    public void setUp(){
+        System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("http://www.thoughtworks.com");
     }
 
 <p>Para MAC OS:</p>
 
-Modificar o arquivo .java "HelloWorld.java" no metodo setUp()
+Modificar o arquivo .java "HelloWorld.java" no metodo setUp() para "./drivers/chromerdriver"
 
 public void setUp(){
         System.setProperty("webdriver.chrome.driver","./drivers/chromedriver");
