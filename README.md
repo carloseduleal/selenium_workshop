@@ -15,7 +15,9 @@ Modificando o driver do chromer conforme seu sistema operacional:
 
 <p>Para Windows:</p>
 
-Modificar o arquivo .java "HelloWorld.java" no metodo setUp()
+Modificar o arquivo .java "HelloWorld.java" no metodo setUp():
+
+
 @Before
 public void setUp(){
 
@@ -24,9 +26,11 @@ public void setUp(){
         driver.get("http://www.thoughtworks.com");
     }
 
+
 <p>Para MAC OS:</p>
 
-Modificar o arquivo .java "HelloWorld.java" no metodo setUp()
+Modificar o arquivo .java "HelloWorld.java" no metodo setUp():
+
 @Before
 public void setUp(){
 
