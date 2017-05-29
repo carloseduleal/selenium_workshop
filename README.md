@@ -25,10 +25,10 @@ Modificar o arquivo "HelloWorld.java" no metodo setUp() para "./drivers/chromedr
 
 <p>Para MAC OS:</p>
 
-Modificar o arquivo .java "HelloWorld.java" no metodo setUp() para "./drivers/chromerdriver"
+Modificar o arquivo .java "HelloWorld.java" no metodo setUp() para "./drivers/chromedriver"
 
-public void setUp(){
-        System.setProperty("webdriver.chrome.driver","./drivers/chromedriver");
+    public void setUp(){
+        System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
         driver = new ChromeDriver();
         driver.get("http://www.thoughtworks.com");
     }
