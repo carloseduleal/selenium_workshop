@@ -19,8 +19,7 @@ Modificar o arquivo .java "HelloWorld.java" no metodo setUp()
 @Before
 public void setUp(){
 
-        System.setProperty("webdriver.chrome.driver",<span style="color:green">"./drivers/chromedriver"</span>);
-        //System.setProperty("webdriver.gecko.driver","./drivers/gecko");
+        System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("http://www.thoughtworks.com");
     }
@@ -31,8 +30,7 @@ Modificar o arquivo .java "HelloWorld.java" no metodo setUp()
 @Before
 public void setUp(){
 
-        System.setProperty("webdriver.chrome.driver",<span style="color:blue">"./drivers/chromedriver"</span>);
-        //System.setProperty("webdriver.gecko.driver","./drivers/gecko");
+        System.setProperty("webdriver.chrome.driver","./drivers/chromedriver");
         driver = new ChromeDriver();
         driver.get("http://www.thoughtworks.com");
     }
