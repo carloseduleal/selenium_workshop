@@ -11,16 +11,9 @@ public class HelloWorld {
 
     @Before
     public void setUp(){
-        //chrome
         System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
-        //System.setProperty("webdriver.gecko.driver","./drivers/gecko");
         driver = new ChromeDriver();
         driver.get("http://www.thoughtworks.com");
-
-        //firefox
-
-        //headless (phantomjs)
-        
     }
 
     @Test
